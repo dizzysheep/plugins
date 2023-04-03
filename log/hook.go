@@ -2,12 +2,12 @@ package log
 
 import (
 	"fmt"
-	"gin-demo/core/config"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/pkg/errors"
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
 	kl "github.com/tracer0tong/kafkalogrus"
+	"github.com/yangxx0612/plugns/config"
 	"os"
 	"path/filepath"
 	"time"
