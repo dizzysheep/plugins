@@ -1,9 +1,9 @@
 package log
 
 import (
-	"gin-demo/core/config"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
+	"github.com/yangxx0612/plugns/config"
 	"net"
 )
 
